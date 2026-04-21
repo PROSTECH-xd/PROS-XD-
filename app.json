@@ -1,0 +1,21 @@
+{
+  "name": "𝑷𝑹𝑶𝑺-𝑿𝑫",
+  "description": "𝑷𝑹𝑶𝑺-𝑿𝑫 WhatsApp bot made by ArslanMD official",
+  "logo": "https://n.uguu.se/BlGoHUJU.jpg",
+  "keywords": ["bot","𝑷𝑹𝑶𝑺-𝑿𝑫","Arslan-MD"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the 𝑷𝑹𝑶𝑺-𝑿𝑫 session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
